@@ -5,7 +5,7 @@ export interface ButtonProps
 
 export function Button({ children, ...other }: ButtonProps): JSX.Element {
   return (
-    <button data-testid="my-button-4" type="button" {...other}>
+    <button data-testid="my-button-5" type="button" {...other}>
       {children}
     </button>
   );
