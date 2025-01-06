@@ -30,7 +30,7 @@ jobs:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: yarn release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # - name: Send a Slack notification if a publish happens
